@@ -1,8 +1,26 @@
-/*Oliver Drullard*/
+/* ============================================================
+   Junta de vecino  · styles.css
+   Módulo CSS · INFOTEP · Autor: (Oliver Drullard) · Sprint 1
+   Guía de estilo: Figma → Junta de vecino / Style guide
+   
+   ============================================================ */
 
+/*Estilos generales para manejar los margenes, los padding y el
+  box-sizing de todos los elementos */
 *{
     margin:0; 
     padding:0;
     box-sizing: border-box; 
 }
 
+body{
+
+}
+
+head{
+
+}
+
+footer{
+    
+}
