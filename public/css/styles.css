@@ -14,13 +14,219 @@
 }
 
 body{
-
-}
-
-head{
+    font-family:  sans-serif;
+    background-color: #F4F5F7;
 
 }
 
 footer{
     
 }
+
+/*estilos css*/
+
+/*{
+  margin:0px;
+}
+body{
+  background-color: #F4F5F7;
+  color: #1F2430;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+#cabecera{
+  background-color: #FFFFFF;
+}
+#aviso{
+  background-color: #0F7A38;
+  color: #FFFFFF;
+}
+.panel{
+  background-color: #FFFFFF;
+}
+#comprobante{
+  background-color: #FFFFFF;
+}
+
+#menu ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+#menu li{
+  display: inline;
+}
+#menu a{
+  display:inline-block;
+  color:#5B6472;
+  text-decoration:none;
+  padding:  6px 10px;
+}
+p{
+  color:#5B6472;
+}
+.importe,.canal,.limite,.emisor,.validado,.total{
+  color:#0F7A38;
+}
+#aviso p{
+  color: #FFFFFF;
+}
+.vence strong{
+  color: #F5B700;
+}
+
+
+
+#menu a.activo {
+    background-color: #E7F6ED;
+    color: #0F7A38;
+}
+
+.boton {
+    background-color: #16A34A;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.boton.secundario {
+    background-color: #FFFFFF !important;
+    color: #0F7A38 !important;
+}
+
+.boton.amarillo {
+    background-color: #F5B700 !important;
+    color: #4A3600 !important;
+}
+
+#logo{
+    color: #0F7A38 !important;
+    text-decoration: none !important;
+}
+
+.avatar{
+  background-color: #E7F6ED !important;
+  color: #0F7A38 !important;
+}
+#aviso {
+    background-color: #0F7A38;
+    background-image: url("img/franja-verde.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#logo,.emisor {
+    background-image: url("img/girasol.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 26px;
+}
+
+.panel {
+    border: 1px solid #E9ECF0;
+}
+
+#comprobante {
+    border: 1px solid #E3E6EB;
+}
+
+.boton.secundario {
+    border: 1px solid #CFEAD9;
+}
+
+.recordatorio {
+    background-color: #FFF6DC;
+    border: 1px solid #F8E9C0;
+    color: #8A6300;
+}
+
+#transparencia {
+    background-color: #E7F6ED;
+    border: 1px solid #C5E5D2;
+}
+
+#transparencia h3 {
+    color: #0F7A38;
+}
+
+#aviso {
+    background: #0F7A38 url("img/franja-verde.svg") no-repeat center / cover;
+}
+
+.pendiente {
+    background-color: #FFF6DC;
+    color: #8A6300;
+}
+
+.pagado {
+    background-color: #E7F6ED;
+    color: #0F7A38;
+}
+
+.abono {
+    background-color: #FCE7E1;
+    color: #A83A18;
+}
+
+.notificacion {
+    background-color: #E6F4EA;
+}
+
+.constancia {
+    background-color: #F6FAF7;
+    border: 1px solid #CFEAD9;
+    color: #0F7A38;
+}
+
+#logo,.emisor {
+    background-image: url("img/girasol.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 26px;
+}
+
+header {
+    padding: 10px 22px;
+    
+}
+
+#logo {
+    float: left;
+    margin-right: 28px;
+}
+
+#menu {
+    display: inline;
+}
+
+#usuario {
+    float:right;
+    margin-right: -22px
+}
+
+#portal{
+  padding: 25px;
+}
+
+#aviso{
+  padding: 23px 24px;
+}
+.panel {
+    padding: 18px;
+}
+
+#transparencia {
+    padding: 20px;
+}
+
+.principal {
+    float: left;
+    width: 650px;
+}
+
+.lateral {
+    float: right;
+    width: 340px;
+}
+
+.laterl{
+    background-position: bottom;
+}*/
