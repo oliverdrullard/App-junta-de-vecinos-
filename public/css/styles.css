@@ -18,7 +18,83 @@ body{
     background-color: #F4F5F7;
 
 }
+/*Estilos de para el navar de la pagina*/
+header{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 10px; 
+    
+}
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Estilo para el titulo de la pagina*/
+nav > a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0F7A38;
+    
+}
+/* Estilo para la lista de navegcion*/
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0px;
+    
+}
+/*Estilos para los enlaces de navegacion*/
+nav ul li > a{
+    text-decoration: none;
+    color: #5B6472;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+/*Estilos para la informacion del usuario*/
+.info-usuario{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/*Estilos para el nombre de usuaior*/
+.info-usuario > p{
+    font-weight:bold;
+}
+/*Estilos para la direccion del usuario*/
+.info-usuario p > samp{
+    color: #98A0AE;
+}
+/*Estilos para el contenedor el avatar*/
+.contet-avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #E7F6ED;
+}
+/*Estilos para la abreviatura del nombre que figura como avatar*/
+.contet-avatar > p{
+    color: #0F7A38;
+    font-weight: bold;
+
+}
+nav ul li>a:hover{
+    background-color: #E7F6ED;
+    color: #0F7A38;
+    
+
+}
+nav ul li > a.activo{
+    background-color: #E7F6ED;
+    color: #0F7A38;
+    font-weight: bold;
+}
 footer{
     
 }
