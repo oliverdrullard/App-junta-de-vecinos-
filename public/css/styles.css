@@ -43,7 +43,7 @@ nav > a{
 nav ul{
     display: flex;
     list-style: none;
-    gap: 0px;
+    gap: 5px;
     
 }
 /*Estilos para los enlaces de navegacion*/
