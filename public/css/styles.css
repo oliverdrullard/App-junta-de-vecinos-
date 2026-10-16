@@ -14,9 +14,16 @@
 }
 
 body{
+    
     font-family:  sans-serif;
     background-color: #F4F5F7;
 
+}
+/*Estilos generales  para el main de la pagina*/
+main{
+    width: fit-content;
+    margin: 30px auto;
+    
 }
 /*Estilos de para el navar de la pagina*/
 header{
