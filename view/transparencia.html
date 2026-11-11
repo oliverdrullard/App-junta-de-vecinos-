@@ -15,159 +15,162 @@
     <title>Transparencia</title>
 </head>
 <body>
-    <!-- ===================================== NAVEGACIÓN =========================================-->
-    <header>
-        <nav>
-            <a href="#"><span>🌻</span>Junta Los Girasoles</a>
+    <div class="pagina-contenedor">
+         <!-- ===================================== NAVEGACIÓN =========================================-->
+        <header>
+            <nav>
+                <a href="#"><span>🌻</span>Junta Los Girasoles</a>
 
-            <ul>
-                <li><a href="index.html">Avisos y Cuotas</a></li>
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="pagarcuota.html">Pagar Cuota</a></li>
-                <li><a href="transparencia.html" class="activo">Transparencia</a></li>
-                <li><a href="historialdepagoyacta.html">Historial & Actas</a></li>
-                <li><a href="#">Documentos</a></li>
-            </ul>
+                <ul>
+                    <li><a href="index.html">Avisos y Cuotas</a></li>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="pagarcuota.html">Pagar Cuota</a></li>
+                    <li><a href="transparencia.html" class="activo">Transparencia</a></li>
+                    <li><a href="historialdepagoyacta.html">Historial & Actas</a></li>
+                    <li><a href="#">Documentos</a></li>
+                </ul>
 
-            <div class="info-usuario">
-                <div class="contet-avatar"><p>MF</p></div>
-                <p>María Fernández🔔 <br><samp>Casa #14 · Residente</samp></p>
-            </div>
-        </nav>
-    </header>
-    <!--===================================== FIN DE LA NAVEGACIÓN =================================-->
-
-    <!--===================================== INICIO DEL MAIN =================================-->
-    <main>
-        <!--=====================================  ENCABEZADO Y FILTROS DE TRANSPARENCIA ===============================-->
-        <section>
-            <p>Portal de Transparencia Comunitaria — Agosto 2026</p>
-            <p>Rendición de cuentas pública: distribución de fondos recaudados y comprobantes de compras.</p>
-            <label for="optiones">Elija</label>
-            <select name="optiones" id="optiones">
-                <option value="enero">Periodo: Enero</option>
-                <option value="febrero">Periodo: Febrero</option>
-                <option value="marzo">Periodo: Marzo</option>
-                <option value="abril">Periodo: Abril</option>
-                <option value="mayo">Periodo: Mayo</option>
-                <option value="junio">Periodo: Junio</option>
-                <option value="julio">Periodo: Julio</option>
-                <option value="agosto">Periodo: Agosto</option>
-                <option value="septiembre">Periodo: Septiembre</option>
-                <option value="octubre">Periodo: Octubre</option>
-                <option value="noviembre">Periodo: Noviembre</option>
-                <option value="diciembre">Periodo: Diciembre</option>
-            </select>
-            <button>📥 Balance en PDF</button>
-            <button>📊 Exportar Excel</button>
-        </section>
-        <section>
-            <div>
-                <p>Total Recaudado</p>
-                <p>$84,600</p>
-                <p>282 de 316 casas al día (89.2%)</p>
-            </div>
-            <div>
-                <p>Total Ejecutado</p>
-                <p>$71,000</p>
-                <p>Gastos operativos contratados</p>
-            </div>
-            <div>
-                <p>Fondo de Reserva</p>
-                <p>$13,600</p>
-                <p>Superávit del mes a la cuenta</p>
-            </div>
-            <div>
-                <p>Soporte Documental</p>
-                <p>100%</p>
-                <p>Facturas con comprobante fiscal</p>
-            </div>
-        </section>
-        <!--===================================== FIN DE ENCABEZADO Y FILTROS DE TRANSPARENCIA ===============================-->
-
-        <!--====================================== RESUMEN FINANCIERO ===========================================-->
-        <section>
-            <!--======================================== DISTRIBUCIÓN DEL PRESUPUESTO =================================-->
-            <section>
-                <p>Distribución del Presupuesto Ejecutado</p>
-                <div class="grafico-presupuesto">
-                    <img src="" alt="Grafico de distribucion de presupuesto">
+                <div class="info-usuario">
+                    <div class="contet-avatar"><p>MF</p></div>
+                    <p>María Fernández🔔 <br><samp>Casa #14 · Residente</samp></p>
                 </div>
+            </nav>
+        </header>
+        <!--===================================== FIN DE LA NAVEGACIÓN =================================-->
 
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><div></div>Seguridad 24/7 (42%)</td>
-                            <th><b>$35,500</b></th>
-                        </tr>
-                        <tr>
-                            <td><div></div>Limpieza y poda (24%)</td>
-                            <td><b>$20,300</b></td>
-                        </tr>
-                        <tr>
-                            <td><div></div>Luz áreas comunes (18%)</td>
-                            <th><b>$15,200</b></th>
-                        </tr>
-                        <tr>
-                            <td><div></div>Fondo reserva (16%)</td>
-                            <td><b>$13,600</b></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <!--======================================== FIN DISTRIBUCIÓN DEL PRESUPUESTO =================================-->
-
-            <!--======================================== LIBRO DE FACTURAS Y COMPROBANTES =================================-->
+        <!--===================================== INICIO DEL MAIN =================================-->
+        <main>
+            <!--=====================================  ENCABEZADO Y FILTROS DE TRANSPARENCIA ===============================-->
             <section>
-                <p>Libro de Facturas y Comprobantes</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Fecha</th>
-                            <th>Proveedor/Concepto</th>
-                            <th>Monto</th>
-                            <th>Soporte</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>05/08</td>
-                            <td>
-                                <b>Seguridad Titán S.R.L.</b>
-                                <span>Vigilancia nocturna 24/7 · Fact.  #0021</span>
-                            </td>
-                            <td><b>$35,500</b></td>
-                            <td>📄 Factura</td>
-                        </tr>
-                        <tr>
-                            <td>09/08</td>
-                            <td>
-                                <b>Servicios Verdes caribe</b>
-                                <span>Poda y recogidas de ramas · Fact. #0022</span>
-                            </td>
-                            <td><b>$20,300</b></td>
-                            <td>📄 Factura</td>
-                        </tr>
-                        <tr>
-                            <td>11/08</td>
-                            <td>
-                                <b>Edesur Dominicana</b>
-                                <span>Luz alumbrado publico  Fact. #8921</span>
-                            </td>
-                            <td><b>$15,200</b></td>
-                            <td>📄 Factura</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <p>Portal de Transparencia Comunitaria — Agosto 2026</p>
+                <p>Rendición de cuentas pública: distribución de fondos recaudados y comprobantes de compras.</p>
+                <label for="optiones">Elija</label>
+                <select name="optiones" id="optiones">
+                    <option value="enero">Periodo: Enero</option>
+                    <option value="febrero">Periodo: Febrero</option>
+                    <option value="marzo">Periodo: Marzo</option>
+                    <option value="abril">Periodo: Abril</option>
+                    <option value="mayo">Periodo: Mayo</option>
+                    <option value="junio">Periodo: Junio</option>
+                    <option value="julio">Periodo: Julio</option>
+                    <option value="agosto">Periodo: Agosto</option>
+                    <option value="septiembre">Periodo: Septiembre</option>
+                    <option value="octubre">Periodo: Octubre</option>
+                    <option value="noviembre">Periodo: Noviembre</option>
+                    <option value="diciembre">Periodo: Diciembre</option>
+                </select>
+                <button>📥 Balance en PDF</button>
+                <button>📊 Exportar Excel</button>
             </section>
-            <!--======================================== FIN LIBRO DE FACTURAS Y COMPROBANTES =================================-->
-        </section>
-        <!--====================================== RESUMEN FINANCIERO ===========================================-->
-    </main>
-    <!--===================================== FIN DEL MAIN =================================-->
+            <section>
+                <div>
+                    <p>Total Recaudado</p>
+                    <p>$84,600</p>
+                    <p>282 de 316 casas al día (89.2%)</p>
+                </div>
+                <div>
+                    <p>Total Ejecutado</p>
+                    <p>$71,000</p>
+                    <p>Gastos operativos contratados</p>
+                </div>
+                <div>
+                    <p>Fondo de Reserva</p>
+                    <p>$13,600</p>
+                    <p>Superávit del mes a la cuenta</p>
+                </div>
+                <div>
+                    <p>Soporte Documental</p>
+                    <p>100%</p>
+                    <p>Facturas con comprobante fiscal</p>
+                </div>
+            </section>
+            <!--===================================== FIN DE ENCABEZADO Y FILTROS DE TRANSPARENCIA ===============================-->
 
-    <!-- ===================================== INICIO DEL FOOTER =========================================-->
-    <footer>@Copiray Junta Los Girasoles</footer>
-    <!-- ===================================== FIN DEL FOOTER =========================================-->
+            <!--====================================== RESUMEN FINANCIERO ===========================================-->
+            <section>
+                <!--======================================== DISTRIBUCIÓN DEL PRESUPUESTO =================================-->
+                <section>
+                    <p>Distribución del Presupuesto Ejecutado</p>
+                    <div class="grafico-presupuesto">
+                        <img src="" alt="Grafico de distribucion de presupuesto">
+                    </div>
+
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><div></div>Seguridad 24/7 (42%)</td>
+                                <th><b>$35,500</b></th>
+                            </tr>
+                            <tr>
+                                <td><div></div>Limpieza y poda (24%)</td>
+                                <td><b>$20,300</b></td>
+                            </tr>
+                            <tr>
+                                <td><div></div>Luz áreas comunes (18%)</td>
+                                <th><b>$15,200</b></th>
+                            </tr>
+                            <tr>
+                                <td><div></div>Fondo reserva (16%)</td>
+                                <td><b>$13,600</b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <!--======================================== FIN DISTRIBUCIÓN DEL PRESUPUESTO =================================-->
+
+                <!--======================================== LIBRO DE FACTURAS Y COMPROBANTES =================================-->
+                <section>
+                    <p>Libro de Facturas y Comprobantes</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Proveedor/Concepto</th>
+                                <th>Monto</th>
+                                <th>Soporte</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>05/08</td>
+                                <td>
+                                    <b>Seguridad Titán S.R.L.</b>
+                                    <span>Vigilancia nocturna 24/7 · Fact.  #0021</span>
+                                </td>
+                                <td><b>$35,500</b></td>
+                                <td>📄 Factura</td>
+                            </tr>
+                            <tr>
+                                <td>09/08</td>
+                                <td>
+                                    <b>Servicios Verdes caribe</b>
+                                    <span>Poda y recogidas de ramas · Fact. #0022</span>
+                                </td>
+                                <td><b>$20,300</b></td>
+                                <td>📄 Factura</td>
+                            </tr>
+                            <tr>
+                                <td>11/08</td>
+                                <td>
+                                    <b>Edesur Dominicana</b>
+                                    <span>Luz alumbrado publico  Fact. #8921</span>
+                                </td>
+                                <td><b>$15,200</b></td>
+                                <td>📄 Factura</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <!--======================================== FIN LIBRO DE FACTURAS Y COMPROBANTES =================================-->
+            </section>
+            <!--====================================== RESUMEN FINANCIERO ===========================================-->
+        </main>
+        <!--===================================== FIN DEL MAIN =================================-->
+
+        <!-- ===================================== INICIO DEL FOOTER =========================================-->
+        <footer>@Copiray Junta Los Girasoles</footer>
+        <!-- ===================================== FIN DEL FOOTER =========================================-->
+    </div>
+   
 </body>
 </html>

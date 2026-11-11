@@ -64,7 +64,7 @@
 }
 
 .notificacion{
-    width: 60%;
+    width: 650.4px;
     padding: 20px;
     background-color: #E6F4EA;
     border-radius: 10px;
@@ -86,5 +86,168 @@
     margin-top: 10px;
     border-radius: 10px;
     background-color: #ffffff;
+    padding:15px;
+}
+.padre-titulo-aviso{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+.titulo-aviso{
+    font-size: 14.7px;
+    font-weight: bold;
+    color: #1F2430;
+    
 }
 
+.div-estado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100.3px;
+    border-radius: 50%;
+    font-size: 9.6px;
+    font-weight: bold;
+    color: #8A6300;
+    background-color: #FFF6DC;
+}
+
+.Costo-mantenimiento{
+    font-size: 35.2px;
+    font-weight: bold;
+    color:#0F7A38;
+}
+
+.padre-costo-mantenimiento{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+samp{
+    margin-top: 20px;
+    font-size: 13.6px;
+    font-weight: bold;
+    color:#5B6472;
+
+}
+.Informacion-aporte{
+    font-size: 13.1px;
+    color: #5B6472;
+    margin-bottom: 10px;
+}
+
+.section-notification{
+    display: flex;
+    
+}
+.columna-2{
+    margin-left: 15px;
+}
+.Calendario_cobro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 140px;
+    padding-left:10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.titulo-calendario-cobro{
+    font-size: 14.7px;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+.div-fecha-emicion{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.mes-emicion{
+    font-size: 12.2px;
+    font-weight: bold;
+}
+.emision-aviso{
+    font-size: 12.2px;
+    color: #5B6472;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.limite-pago{
+    font-size: 12.2px;
+    font-weight:bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #0F7A38;
+}
+
+/*Informacion del tesorero*/
+
+.info_tesorero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    height: 118px;
+    margin-top: 15px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.sub-titulo-tesorero{
+    font-size: 14.7px;
+    font-weight: bold;
+    color: #1F2430;
+    margin-bottom: 10px;
+}
+
+.info-tesorero{
+    font-size: 12.2px;
+    color: #5B6472;
+}
+
+.info_aviso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 55.1px;
+    font-size: 11.8px;
+    color: #6B5000;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #FFF6DC;
+    border: 1pex solid #F2DDA4;
+    border-radius: 10px;
+}
+
+.div-padre-button{
+    margin-top: 10px;
+}
+
+.button-pago-linea{
+    width: 236px;
+    height: 43px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #16A34A;
+}
+
+.button-pago-efectivo{
+    width: 236px;
+    height: 43px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0.8px solid #BFE3CD;
+    border-radius: 10px;
+    color: #0F7A38;
+    background-color: #ffffff;
+}
