@@ -1,0 +1,263 @@
+/* ============================================================
+   Junta de vecino  · inicio.css
+   Módulo CSS · INFOTEP · Autor: (Oliver Drullard) · Sprint 1
+   Guía de estilo: Figma → Junta de vecino / Style guide
+   
+   ============================================================ */
+
+/*Estilos para la seccion de saludo de cortecia*/
+
+.section-saludo-cortecia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to bottom right,#0F7A38 5%, #16A34A 95%);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#nombre-persona{
+    font-size: 19.2px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#mensaje-direccion{
+    font-size: 13.4px;
+}
+
+.boton-pagar-ahora{
+    width: 216px;
+    height: 42.2px;
+    font-size: 13.2px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #F5B700;
+}
+
+/*Estilos para la seccion principal o padre que contiene la tabla de desglose estado de solvencia  aviso y etc..*/
+
+.section-depago-desglosada{
+    display: flex;
+    gap: 16px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:16px; */
+}
+
+/*Estilos para la tabla de desglose*/
+
+
+.desglose-tabla{
+   width: 650.4px;
+   height: 441.4px;
+   border-radius: 10px;
+   margin-top: 20px;
+   padding:15px;
+   background-color: #ffffff;
+}
+
+.div-titulo-tabla{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.titulo-desglose{
+    font-size: 14.7px;
+    font-weight: bold;
+}
+
+.div-fecha-vencimiento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135.2px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 9.6px;
+    font-weight: bold;
+    color: #8A6300;
+    background-color: #FFF6DC;
+    
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 15px;
+}
+thead{
+    background-color: #F4F5F7;
+    
+}
+
+.th-thead{
+    padding: 10px;
+    text-align: left;
+    font-size: 11.5px;
+    font-weight: bold;
+    margin-right:0px;
+    color: #5B6472;
+}
+
+
+.td-tbody-concepto{
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #1F2430;
+    padding: 15px;
+}
+
+.td-tbody-destino-fondo{
+    font-size: 12.5px;
+    color: #5B6472;
+}
+
+.td-tbody-import{
+    font-size: 12.5px;
+    font-weight: bold;
+    color:#1F2430;
+}
+
+tfoot{
+    background-color: #F7FBF8;
+}
+
+.td-tfoot-total{
+    font-size: 14.1px;
+    font-weight: bold;
+    color: #0F7A38;
+    padding: 15px;
+}
+
+.td-tfoot-description{
+   font-size: 12.2px;
+    font-weight: bold;
+    color: #0F7A38;
+   
+}
+
+.td-tfoot-monto{
+   font-size: 18.4px;
+    font-weight: bold;
+    color: #0F7A38;
+   
+}
+
+.boton-pagar-en-linea{
+    width: 183.5px;
+    height: 35.7px;
+    margin-bottom: 10px;
+    font-size: 13.1px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #16A34A;
+
+}
+
+.boton-pagar-efectivo{
+    width: 251.7px;
+    height: 35px;
+    font-size: 13.1;
+    font-weight: bold;
+    margin-left: 10px;
+    border: 1px solid #BFE3CD;
+    border-radius: 10px;
+    color: #0F7A38;
+    background-color: #ffffff;
+}
+
+.boton-descargar-pdf{
+    width: 158.6px;
+    height: 35px;
+    font-size: 13.1;
+    font-weight: bold;
+    border: 1px solid #BFE3CD;
+    border-radius: 10px;
+    color: #0F7A38;
+    background-color: #ffffff;
+}
+
+/* Estilos para los apartados de estado de solvencia, aviso comunitario y transparencia */
+
+.section-estado{
+    width: 340px;
+    margin-top: 15px;
+    padding: 15px;
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#titulo-solvencia{
+    font-size: 13.7px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.div-informacion-ultimo-pago{
+    display: flex;
+  
+}
+
+.div-hijo-solvencia{
+    margin-left: 10px;
+}
+.titulo-estado-solvencia{
+    font-size: 13.1px;
+    font-weight: bold;
+}
+
+.p-ultimo-pago{
+    font-size: 11.5px;
+    margin-top: 7px;
+    color: #98A0AE;
+}
+
+.div-informacion-ultimo-pago > img{
+    width: 34px;
+}
+
+.boton-ver-historial{
+    width: 100%;
+    height: 33.4px;
+    border: 1px solid #BFE3CD;
+    border-radius: 10px;
+    font-size: 11.8px;
+    font-weight: bold;
+    color: #0F7A38;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.p-aviso-comunitario{
+    margin-top: 10px;
+    font-size: 12.2px;
+    color: #5B6472;
+}
+
+.p-transparencia{
+    margin-top: 10px;
+    margin-bottom: 10;
+    font-size: 12.2px;
+    color: #5B6472;
+
+}
+
+.div-padre-transparencia{
+    margin-bottom: 10px;
+}
+
+.section-estado > a{
+    margin-top: 10px;
+    font-size: 11.8px;
+    font-weight: bold;
+    color: #2D7FF9;
+    text-decoration: none;
+}
