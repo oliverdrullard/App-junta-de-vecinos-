@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="../public/css/styles.css">
+    <link rel="stylesheet" href="../public/css/pagarcuota.css">
     <title>Pagar cuota</title>
 </head>
 <body>
@@ -39,97 +40,107 @@
 
         <!--===================================== INICIO DEL MAIN =================================-->
         <main>
-            <section>
-                <div>
-                    <p><span>1</span> Selección de Método</p>
-                    <div></div>
-                    <p><span>2</span> Confirmar pago</p>
-                    <div></div>
-                    <p><span>3</span> Recibo Digital</p>
-                </div>
-                <div>
-                    <p>Paso 1 de 2 · Selecciona cómo deseas abonar tu cuota de agosto ($300.00 DOP). Tu pago se refleja al instante.</p>
-                </div>
+            <section class="section-barra-progreso">
+                <span class="span-paso-encurso">1</span>
+                <p class="p-selecion-paso-encurso">Selección de Método</p>
+                <div class="div-guiones"></div>
+                <span class="span-paso">2</span> 
+                <p class="p-selecion-paso-progreso">Confirmar pago</p>
+                <div class="div-guiones"></div>
+                <span class="span-paso">3</span> 
+                <p class="p-selecion-paso-progreso">Recibo Digital</p>
             </section>
-            <section>
-                <section>
-                    <p>Elige tu método de pago</p>
-                    <form action="">
-                        <div>
-                            <input type="radio" id="tarjeta_debito" name="tarjeta_debito">
-                            <label for="tarjeta_debito" >💳 Tarjeta de Débito o Crédito (· · · · 4821) Guardada</label>
-                            <p>Visa Débito · Titular: María Fernández · Vence 08/2028</p>
-                        </div>
-                        <div>
-                            <input type="radio" id="tranferencia" name="tranferencia">
-                            <label for="tranferencia">🏦 Transferencia Bancaria Directa</label>
-                            <p>Banreservas · Cuenta Corriente 960-0043-12 · Junta Los Girasoles</p>
-                        </div>
-                        <div>
-                            <input type="radio" id="efectivo" name="efectivo">
-                            <label for="efectivo">💵 Pago en Efectivo con el Tesorero</label>
-                            <p>Genera un código QR único para entregar los $300 en mano a Carlos Rodríguez</p>
-                        </div>
-                    </form>
-                </section>
-                <section>
-                    <p>Datos bancarios oficiales para transferir</p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Banco</th>
-                                <th>Número de Cuenta</th>
-                                <th>RNC Institucional</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Banreservas</td>
-                                <td>960-0043-12</td>
-                                <td>4-01-98765-2</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-                <section>
-                    <p>Resumen del Cobro</p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Concepto</th>
-                                <th>Cuota Agosto 2026</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Residente</td>
-                                <td>Casa #14, Manzana B</td>
-                            </tr>
-                            <tr>
-                                <td>Subtotal</td>
-                                <td>$300.00</td>
-                            </tr>
-                            <tr>
-                                <td>Comisión de pasarela</td>
-                                <td>$0.00</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>Total a pagar</td>
-                                <td>$300.00 DOP</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </section>
-                <section>
-                    <p>
-                        🔒 Transacción 100% segura: Tus datos financieros viajan encriptados bajo protocolo SSL de 256 bits y no se
-                        almacenan en servidores comunitarios.
-                    </p>
-                </section>
-                <button>Continuar a Confirmación →</button>
-                <div><a href="#">Volver al inicio</a></div>
+            <section class="info-pasos-pago">
+                <p>Paso 1 de 2 · Selecciona cómo deseas abonar tu cuota de agosto ($300.00 DOP). Tu pago se refleja al instante.</p>
+            </section>
+            <section class="section-padre-metodo-de-pago">
+                <div>
+                    <section class="section-elige-meto-pago">
+                        <p>Elige tu método de pago</p>
+                        <form action="">
+                            <div class="div-padre-input-form-activo">
+                                <input type="radio" id="tarjeta_debito" name="tarjeta_debito">
+                                <label for="tarjeta_debito" >💳 Tarjeta de Débito o Crédito (· · · · 4821) <span class="span-metodo-pago">Guardada</span></label>
+                                <p>Visa Débito · Titular: María Fernández · Vence 08/2028</p>
+                            </div>
+                            <div class="div-padre-input-form">
+                                <input type="radio" id="tranferencia" name="tranferencia">
+                                <label for="tranferencia">🏦 Transferencia Bancaria Directa</label>
+                                <p>Banreservas · Cuenta Corriente 960-0043-12 · Junta Los Girasoles</p>
+                            </div>
+                            <div class="div-padre-input-form">
+                                <input type="radio" id="efectivo" name="efectivo">
+                                <label for="efectivo">💵 Pago en Efectivo con el Tesorero</label>
+                                <p>Genera un código QR único para entregar los $300 en mano a Carlos Rodríguez</p>
+                            </div>
+                        </form>
+                    </section>
+                    <section class="section-info-tranferencia">
+                        <p>Datos bancarios oficiales para transferir</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="th-tabla-info-transferencia">Banco</th>
+                                    <th class="th-tabla-info-transferencia">Número de Cuenta</th>
+                                    <th class="th-tabla-info-transferencia">RNC Institucional</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="td-th-tabla-info-transferencia">Banreservas</td>
+                                    <td class="td-th-tabla-info-transferencia">960-0043-12</td>
+                                    <td class="td-th-tabla-info-transferencia">4-01-98765-2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section class="section-botones">
+                        <button class="boton-confirmar-pago">Continuar a Confirmación →</button>
+                        <div class="div-enlace-inicio"><a href="#">Volver al inicio</a></div>
+                    </section>
+                </div>
+
+                <div>
+                    <section class="section-resumen-codigo">
+                        <p>Resumen del Cobro</p>
+                        <table class="tabla-informacion-transferencia">
+                            <thead class="thead-tabla-cobro">
+                                <tr>
+                                    <th class="th-tabla-resumen-cobro-concepto">Concepto</th>
+                                    <th class="th-tabla-resumen-cobro-mes">Cuota Agosto 2026</th>
+                                </tr>
+                            </thead>
+                            <tbody class="section-tbody-tabla-info-cobro">
+                                <tr>
+                                    <td class="td-tabla-resumen-cobro-concepto">Residente</td>
+                                    <td class="td-tabla-resumen-cobro-mes">Casa #14, Manzana B</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-tabla-resumen-cobro-concepto">Subtotal</td>
+                                    <td class="td-tabla-resumen-cobro-mes">$300.00</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-tabla-resumen-cobro-concepto">Comisión de pasarela</td>
+                                    <td class="td-tabla-resumen-cobro-mes">$0.00</td>
+                                </tr>
+                            </tbody>
+                            <tfoot class="section-tfoot-tabla-info-cobro ">
+                                <tr>
+                                    <td class="td-tabla-resumen-cobro-concepto">Total a pagar</td>
+                                    <td class="total-apagar">$300.00 DOP</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </section>
+                    <section class="section-info-adicional">
+                        <p>
+                            🔒 Transacción 100% segura: Tus datos financieros viajan encriptados bajo protocolo SSL de 256 bits y no se
+                            almacenan en servidores comunitarios.
+                        </p>
+                    </section>
+                </div>
+                
+               
             </section>
         </main>
         <!--===================================== FIN DEL MAIN =================================-->

@@ -1,0 +1,302 @@
+/* ============================================================
+   Junta de vecino  · styles.css
+   Autor: (Oliver Drullard)   
+   Guía de estilo: Figma → Junta de vecino / Style guide
+   
+   ============================================================ */
+
+/* =================== Estilos para la section principal =========================*/
+.section-padre-metodo-de-pago{
+    display: flex;
+    gap: 16px;
+}
+
+/* =================== Estilos para la barra de progreso =========================*/
+
+.section-barra-progreso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 43.6px;
+   
+    background-color: #ffffff;
+    border-radius: 10px; 
+}
+
+.div-guiones{
+    margin: 10px;
+    width: 32px;
+    height: 2px;
+    background-color: #E3E6EB;
+}
+
+.span-paso-encurso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    font-size: 11.2px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #16A34A;
+    border-radius: 50%;
+}
+
+.span-paso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    font-size: 11.2px;
+    font-weight: bold;
+    color: #5B6472;
+    margin-right: 10px;
+    background-color: #EEF0F3;
+    border-radius: 50%;
+}
+
+.p-selecion-paso-encurso{
+    
+    font-weight: bold;
+    color: #0F7A38;
+}
+.p-selecion-paso-progreso{
+    font-weight: bold;
+    color: #98A0AE;
+}
+
+/* =================== Estilos para la seccion de informacion de pasos  =========================*/
+
+.info-pasos-pago{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 38.3px;
+    font-size: 12.5px;
+    color: #6B5000;
+    margin-top: 25px;
+    padding: 10px;
+    border: 1px solid #F2DDA4;
+    border-radius: 10px;
+    background-color: #FFF6DC;
+}
+
+/* =================== Estilos para el formulario de elige tu metodo de pago  =========================*/
+
+.section-elige-meto-pago{
+    width: 650.4px;
+    height: 320.6px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.section-elige-meto-pago > p{
+    margin-bottom: 10px;
+    font-size: 14.7px;
+    font-weight: bold;
+
+}
+
+.div-padre-input-form-activo{
+    width: 612.8px;
+    height: 73.8px;
+    padding: 10px;
+    border: 1px solid #16A34A;
+    border-radius: 10px;
+    background-color: #F6FCF8;
+}
+
+.div-padre-input-form{
+    width: 612.8px;
+    height: 73.8px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #E3E6EB;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.div-padre-input-form-activo > label{
+    font-size: 13.4px;
+    font-weight: bold;
+}
+
+.div-padre-input-form > label{
+    font-size: 13.4px;
+    font-weight: bold;
+}
+
+.span-metodo-pago{
+    font-size: 9.6px;
+    font-weight: bold;
+    color: #0F7A38;
+    background-color: #E7F6ED;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.div-padre-input-form-activo > p{
+    font-size: 11.5px;
+    color: #5B6472;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.div-padre-input-form > p{
+    font-size: 11.5px;
+    color: #5B6472;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/* =================== Estilos para la informacion de la cuenta para pagar con transferencia  =========================*/
+
+.section-info-tranferencia{
+    width: 650.4px;
+    height: 104.2px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E6EB;
+    background-color: #ffffff;
+}
+
+.section-info-tranferencia > p{
+    font-size:14.7px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.th-tabla-info-transferencia{
+    text-align: left;
+    color: #98A0AE;
+    padding-right: 80px;
+    font-weight: lighter;
+
+
+}
+
+.td-th-tabla-info-transferencia{
+    font-weight: bold;
+}
+
+/* =================== Estilos para los botones de confirmar pago y volver al inicio  =========================*/
+
+.section-botones{
+    display: flex;
+    margin-top: 10px;
+}
+.boton-confirmar-pago{
+    width: 229.7px;
+    height: 42.2px;
+    font-size: 13.2px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    background-color: #16A34A;
+}
+
+.div-enlace-inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134.2px;
+    height: 43.8px;
+    margin-left: 10px;
+    border: 1px solid #BFE3CD;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.div-enlace-inicio > a{
+    font-size: 13.4px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0F7A38;
+}
+
+/* =================== Estilos para la section de resumen del cobro  =========================*/
+.section-resumen-codigo{
+    width: 340px;
+    height: 231.6px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #E3E6EB;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* =================== Estilos para la tabla de resumen del cobro  =========================*/
+
+.section-resumen-codigo > p{
+    font-size: 14.7px;
+    font-weight: bold;
+}
+
+.tabla-informacion-transferencia{
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+.th-tabla-resumen-cobro-concepto{
+    font-size: 11.5px;
+    text-align: left;
+    color: #5B6472;
+}
+
+.td-tabla-resumen-cobro-concepto{
+    font-size: 11.5px;
+    text-align: left;
+    padding: 10px;
+    color: #5B6472;
+}
+
+.th-tabla-resumen-cobro-mes{
+    font-size: 11.5px;
+    font-weight: bold;
+}
+.td-tabla-resumen-cobro-mes{
+    font-size: 11.5px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+}
+
+.section-tbody-tabla-info-cobro tr, .section-tfoot-tabla-info-cobro tr {
+    border: 1px solid #E3E6EB;
+}
+
+.section-tfoot-tabla-info-cobro tr {
+    padding: 10px;
+}
+
+.total-apagar{
+    font-size: 18.4px;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    color: #0F7A38;
+}
+
+/* =================== Estilos para informacion adicional  =========================*/
+.section-info-adicional{
+    width: 340px;
+    height: 90.8px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #E3E6EB;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    font-size: 11.8px;
+    
+    color: #5B6472;
+}
+
