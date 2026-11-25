@@ -1,0 +1,317 @@
+/* ============================================================
+   Junta de vecino  · styles.css
+   Autor: (Oliver Drullard)   
+   Guía de estilo: Figma → Junta de vecino / Style guide
+   
+   ============================================================ */
+
+/* =================== Estilos para la barra de progreso en el paso 2 =========================*/
+
+.section-barra-progreso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 43.6px;
+   
+    background-color: #ffffff;
+    border-radius: 10px; 
+}
+
+.div-guiones{
+    margin: 10px;
+    width: 32px;
+    height: 2px;
+    background-color: #E3E6EB;
+}
+
+.span-paso-encurso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    font-size: 11.2px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #16A34A;
+    border-radius: 50%;
+}
+
+.span-paso-completado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    font-size: 11.2px;
+    font-weight: bold;
+    color: #0F7A38;
+    margin-right: 10px;
+    background-color: #E7F6ED;
+    border-radius: 50%;
+}
+
+.span-paso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    font-size: 11.2px;
+    font-weight: bold;
+    color: #5B6472;
+    margin-right: 10px;
+    background-color: #EEF0F3;
+    border-radius: 50%;
+}
+
+.p-selecion-paso-encurso{
+    
+    font-weight: bold;
+    color: #0F7A38;
+}
+.p-selecion-paso-progreso{
+    font-weight: bold;
+    color: #98A0AE;
+}
+
+/* =================== Estilos para la seccion de informacion de pasos  =========================*/
+
+.info-pasos-pago{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 38.3px;
+    font-size: 12.5px;
+    color: #6B5000;
+    margin-top: 25px;
+    padding: 10px;
+    border: 1px solid #F2DDA4;
+    border-radius: 10px;
+    background-color: #FFF6DC;
+}
+/* =================== Estilos para el contenedor padre del contenido principal  =========================*/
+.div-padre-contenido-principal{
+    display: flex;
+    gap: 16px;
+}
+/* =================== Estilos para la seccion de Informacion final del pago, informacion del pago  =========================*/
+.section-revicion-info-pago{
+    width: 650.4px;
+    height: 514.6px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.titulo-revicion-info-pago{
+    font-size: 14.7px;
+    font-weight: bold;
+    color: #1F2430;
+}
+
+.div-monto-a-pagar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 612.8px;
+    height: 113.9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right,#0F7A38 5%, #16A34A 95%);
+}
+
+.titulo-monto-total{
+    font-size: 10.2px;
+    
+}
+
+.cantidad{
+    font-size: 38.4px;
+    font-weight: bold;
+}
+
+.p-periodo-cuota{
+    font-size: 10.9px;
+}
+
+/* Estilos para la tabla de informacion de pago */
+
+table{
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.th-tabla-informacion-forma-pago{
+    font-size: 12.5px;
+    color: #5B6472;
+    padding-bottom: 20px;
+    width: 40%;
+}
+
+.td-tabla-informacion-forma-pago-titulo{
+    font-size: 12.5px;
+    color: #5B6472;
+    padding-bottom: 20px;
+    
+}
+
+.td-tabla-informacion-forma-pago{
+    font-size: 12.5px;
+    padding-bottom: 20px;
+}
+.td-tabla-informacion-forma-pago-cargo{
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #0F7A38;
+    padding-bottom: 20px;
+}
+.th-tabla-informacion-forma-pago-dato{
+    font-size: 12.5px;
+    padding-bottom: 20px;
+}
+
+.tfoot-tr{
+    background-color: #F6FAF7;
+    
+}
+
+.tfoot-td-titulo{
+    font-size: 12.5px;
+    font-weight: bold;
+    color: #0F7A38;
+    padding: 20px 0px 20px;
+}
+
+.tfoot-td-info{
+    font-size: 17.5px;
+    font-weight: bold;
+    color: #0F7A38; 
+}
+
+/* =================== Estilos para los botones de la seccion de confirmar pago =========================*/
+
+.div-botones{
+    margin-top: 20px;
+}
+.boton-confirmar-pagar{
+    width: 228.7px;
+    height: 44.6px;
+    font-size: 13.8px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #16A34A;
+    border: none;
+    border-radius: 10px;
+}
+
+.boton-cambiar-metodo-pago{
+    width: 158.8px;
+    height: 44.6px;
+    font-size: 13.8px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #0F7A38;
+    border: 1px solid #BFE3CD;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.boton-cancelar-pago{
+    width: 88.8px;
+    height: 44.6px;
+    font-size: 13.8px;
+    font-weight: bold;
+    color: #0F7A38;
+    border: 1px solid #BFE3CD;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+/* =================== Estilos para las section de informacion adicional=========================*/
+
+.section-informacion-adicional{
+    width: 340px;
+    height: 120.6px;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #E3E6EB;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.titulo-inforamcion-adicional{
+    font-size: 14.7px;
+    font-weight: bold;
+    
+    color: #1F2430;
+    margin-bottom: 10px;
+}
+
+.informacion-adicional{
+    font-size: 12.2px;
+    color: #5B6472;
+}
+
+.Agregar-comprobante {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contenedor-subir-comprobante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+/* Área donde aparece el icono */
+.area-imagen-comprobante {
+    width: 136px;
+    height: 110px;
+    border: 1px solid #36b56a;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+/* =================== Estilos para el apartado de subir el comprobane de la transferencia =========================*/
+
+/* Icono de imagen */
+.area-imagen-comprobante i {
+    font-size: 75px;
+    color: #222;
+}
+
+/* Ocultar input original */
+#subir-imagen {
+    display: none;
+}
+
+/* Botón agregar comprobante */
+.boton-agregar-comprobante {
+    background-color: #16a34a;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 9px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.boton-agregar-comprobante:hover {
+    background-color: #15803d;
+}
